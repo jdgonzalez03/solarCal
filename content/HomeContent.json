@@ -1,0 +1,6 @@
+[
+  { "id": "1", "section": "Home", "description": "Introducción" },
+  { "id": "2", "section": "Calculadora", "description": "Permite calcular celdas fotovoltaicas y baterías." },
+  { "id": "3", "section": "Wiki", "description": "Enciclopedia sobre celdas fotovoltaicas." },
+  { "id": "4", "section": "Tablas", "description": "Tablas y fórmulas para cálculos." }
+]
