@@ -1,20 +1,16 @@
-import { Text, FlatList, View } from "react-native";
+import { Text, View } from "react-native";
 import BaseScreenComponent from "../components/BaseScreenComponent.js";
 import HomeContent from "../content/HomeContent.json";
 import { stylesHomeContent } from "../styles/StylesHomeContent.js";
 import { ScrollView } from "react-native";
 
 export default function Home() {
-  console.log(HomeContent);
-
   return (
     <BaseScreenComponent>
       <ScrollView style={stylesHomeContent.container}>
-        {/* Título de la aplicación */}
         <Text style={stylesHomeContent.header}>Bienvenidos a</Text>
         <Text style={stylesHomeContent.header}>SolarCal</Text>
 
-        {/* FlatList con la tabla de contenido */}
         {HomeContent.map((item) => {
           return (
             <View key={item.id} style={stylesHomeContent.itemContainer}>
@@ -26,7 +22,6 @@ export default function Home() {
           );
         })}
 
-        {/* Pie de página */}
         <Text style={stylesHomeContent.footerText}>Hecho por:</Text>
         <View
           style={{
