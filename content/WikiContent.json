@@ -1,0 +1,244 @@
+{
+  "temas": [
+      {
+          "titulo": "Semiconductores fotovoltaicos",
+          "concepto": "Materiales que permiten la conversión de energía solar en eléctrica mediante el movimiento de electrones al recibir radiación.",
+          "aplicaciones": [
+              "Fabricación de celdas solares",
+              "Desarrollo de nuevas tecnologías de generación",
+              "Mejora de eficiencia energética"
+          ]
+      },
+      {
+          "titulo": "Terminología fotovoltaica",
+          "concepto": "Vocabulario técnico específico utilizado para describir los componentes y procesos de sistemas de generación solar.",
+          "aplicaciones": [
+              "Comunicación técnica",
+              "Diseño de sistemas",
+              "Documentación especializada"
+          ]
+      },
+      {
+          "titulo": "Módulos fotovoltaicos",
+          "concepto": "Conjunto de celdas solares interconectadas y encapsuladas para protección y generación de energía eléctrica.",
+          "aplicaciones": [
+              "Generación distribuida",
+              "Sistemas de potencia renovable",
+              "Instalaciones de diversa escala"
+          ]
+      },
+      {
+          "titulo": "Sistemas basados en baterías",
+          "concepto": "Instalaciones fotovoltaicas que utilizan baterías para almacenar y gestionar la energía generada.",
+          "aplicaciones": [
+              "Electrificación rural",
+              "Sistemas de respaldo",
+              "Gestión energética autónoma"
+          ]
+      },
+      {
+          "titulo": "Sistemas fotovoltaicos conectados a red",
+          "concepto": "Instalaciones solares que inyectan energía directamente al sistema eléctrico nacional.",
+          "aplicaciones": [
+              "Generación comercial",
+              "Reducción de consumo de red",
+              "Incentivos de generación distribuida"
+          ]
+      },
+      {
+          "titulo": "Watts-hora",
+          "concepto": "Unidad de medida de energía que representa la potencia consumida o generada durante una hora.",
+          "aplicaciones": [
+              "Cálculo de consumo energético",
+              "Dimensionamiento de sistemas",
+              "Facturación eléctrica"
+          ]
+      },
+      {
+          "titulo": "Conexión serie de módulos",
+          "concepto": "Método de interconexión de paneles solares para incrementar el voltaje total del sistema.",
+          "aplicaciones": [
+              "Adaptación de voltajes",
+              "Optimización de sistemas",
+              "Flexibilidad de diseño"
+          ]
+      },
+      {
+          "titulo": "Baterías no recargables",
+          "concepto": "Dispositivos de almacenamiento energético de un solo uso en sistemas fotovoltaicos.",
+          "aplicaciones": [
+              "Sistemas temporales",
+              "Dispositivos de bajo consumo",
+              "Aplicaciones específicas"
+          ]
+      },
+      {
+          "titulo": "Baterías plomo-ácido",
+          "concepto": "Tipo de batería recargable con electrolito de ácido sulfúrico, utilizada en sistemas de energía renovable.",
+          "aplicaciones": [
+              "Sistemas solares aislados",
+              "Almacenamiento de energía",
+              "Respaldo eléctrico"
+          ]
+      },
+      {
+          "titulo": "Factor C de capacidad de batería",
+          "concepto": "Tasa de carga o descarga de una batería en relación con su capacidad nominal.",
+          "aplicaciones": [
+              "Diseño de sistemas de almacenamiento",
+              "Evaluación de rendimiento",
+              "Selección de baterías"
+          ]
+      },
+      {
+          "titulo": "Profundidad de descarga (PDD)",
+          "concepto": "Porcentaje de capacidad total de una batería que puede ser utilizado sin causar daño significativo.",
+          "aplicaciones": [
+              "Prolongación de vida útil",
+              "Mantenimiento de baterías",
+              "Optimización de sistemas"
+          ]
+      },
+      {
+          "titulo": "Controlador de carga",
+          "concepto": "Dispositivo electrónico que regula el flujo de energía entre paneles solares y baterías.",
+          "aplicaciones": [
+              "Protección de baterías",
+              "Prevención de sobrecarga",
+              "Gestión eficiente de energía"
+          ]
+      },
+      {
+          "titulo": "Inversor solar",
+          "concepto": "Equipo que transforma corriente continua de paneles solares en corriente alterna para consumo.",
+          "aplicaciones": [
+              "Conexión a electrodomésticos",
+              "Interconexión con red eléctrica",
+              "Sistemas híbridos"
+          ]
+      },
+      {
+          "titulo": "Requerimientos de cargas eléctricas",
+          "concepto": "Características específicas de voltaje y corriente necesarias para el funcionamiento de dispositivos en sistemas fotovoltaicos.",
+          "aplicaciones": [
+              "Diseño de sistemas",
+              "Selección de componentes",
+              "Eficiencia energética"
+          ]
+      },
+      {
+          "titulo": "Aparatos de consumo solar",
+          "concepto": "Dispositivos diseñados para funcionar con energía generada por sistemas fotovoltaicos.",
+          "aplicaciones": [
+              "Iluminación",
+              "Comunicación",
+              "Refrigeración"
+          ]
+      },{
+        "titulo": "Tipos de celdas fotovoltaicas",
+        "concepto": "Clasificación de dispositivos semiconductores que convierten luz solar en electricidad según su composición y tecnología de fabricación.",
+        "tipos": [
+            "Silicio monocristalino",
+            "Silicio policristalino", 
+            "Silicio amorfo",
+            "Película delgada",
+            "Células de arseniuro de galio",
+            "Células orgánicas"
+        ],
+        "aplicaciones": [
+            "Paneles solares residenciales",
+            "Sistemas de generación industrial",
+            "Dispositivos electrónicos portátiles"
+        ]
+    },
+    {
+        "titulo": "Celdas de Silicio Monocristalino",
+        "concepto": "Células fotovoltaicas fabricadas con un único cristal de silicio de alta pureza, caracterizadas por su alta eficiencia.",
+        "aplicaciones": [
+            "Paneles solares de alta eficiencia",
+            "Sistemas espaciales",
+            "Instalaciones con limitación de espacio"
+        ]
+    },
+    {
+        "titulo": "Celdas de Silicio Policristalino",
+        "concepto": "Células fotovoltaicas compuestas por múltiples cristales de silicio, con menor costo de producción y eficiencia moderada.",
+        "aplicaciones": [
+            "Instalaciones residenciales",
+            "Sistemas fotovoltaicos de escala media",
+            "Proyectos de energía comunitaria"
+        ]
+    },
+    {
+        "titulo": "Tipos de baterías fotovoltaicas",
+        "concepto": "Sistemas de almacenamiento energético diseñados para acumular electricidad generada por paneles solares.",
+        "tipos": [
+            "Baterías de plomo-ácido",
+            "Baterías de litio",
+            "Baterías de níquel-cadmio",
+            "Baterías de gel",
+            "Baterías AGM",
+            "Baterías de flujo"
+        ],
+        "aplicaciones": [
+            "Almacenamiento de energía solar",
+            "Sistemas autónomos",
+            "Respaldo eléctrico"
+        ]
+    },
+    {
+        "titulo": "Baterías de Plomo-Ácido",
+        "concepto": "Tipo de batería recargable con electrolito de ácido sulfúrico, tradicional en sistemas fotovoltaicos.",
+        "aplicaciones": [
+            "Sistemas solares aislados",
+            "Respaldo de energía",
+            "Instalaciones de bajo costo"
+        ]
+    },
+    {
+        "titulo": "Baterías de Litio",
+        "concepto": "Baterías de alta densidad energética, bajo peso y mayor ciclo de vida para sistemas fotovoltaicos modernos.",
+        "aplicaciones": [
+            "Sistemas solares residenciales",
+            "Almacenamiento de gran capacidad",
+            "Vehículos eléctricos solares"
+        ]
+    },
+    {
+        "titulo": "Baterías de Níquel-Cadmio",
+        "concepto": "Baterías recargables con alta resistencia a condiciones extremas y largos ciclos de vida.",
+        "aplicaciones": [
+            "Sistemas en zonas remotas",
+            "Aplicaciones industriales",
+            "Equipos de comunicación solar"
+        ]
+    },
+    {
+        "titulo": "Baterías de Gel",
+        "concepto": "Baterías de plomo-ácido con electrolito en estado de gel, selladas y de mantenimiento reducido.",
+        "aplicaciones": [
+            "Sistemas solares pequeños",
+            "Instalaciones sin ventilación",
+            "Equipos portátiles"
+        ]
+    },
+    {
+        "titulo": "Baterías AGM",
+        "concepto": "Baterías de plomo-ácido con separador de fibra de vidrio absorbente, diseñadas para alta eficiencia y durabilidad.",
+        "aplicaciones": [
+            "Sistemas solares urbanos",
+            "Respaldo de telecomunicaciones",
+            "Instalaciones críticas"
+        ]
+    },
+    {
+        "titulo": "Baterías de Flujo",
+        "concepto": "Sistema de almacenamiento basado en electrolitos líquidos separados, ideal para grandes volúmenes de almacenamiento.",
+        "aplicaciones": [
+            "Centrales solares de gran escala",
+            "Almacenamiento grid-scale",
+            "Regulación de red eléctrica"
+        ]
+    }
+  ]
+}
