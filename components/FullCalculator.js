@@ -275,6 +275,7 @@ export default function FullCalculator() {
             <TextInput
               style={styles.input}
               placeholder="Eficiencia del inversro (0 - 1)"
+              keyboardType="numeric"
               value={eficienciaInversor}
               onChangeText={setEficienciaInversor}
             />
@@ -285,6 +286,7 @@ export default function FullCalculator() {
             <TextInput
               style={styles.input}
               placeholder="Ejemplo: 1.2"
+              keyboardType="numeric"
               value={factorSeguridad}
               onChangeText={setFactorSeguridad}
             />
@@ -295,6 +297,7 @@ export default function FullCalculator() {
             <TextInput
               style={styles.input}
               placeholder="Ejemplo: 12 V"
+              keyboardType="numeric"
               value={tensionSistema}
               onChangeText={setTensionSistema}
             />
@@ -305,6 +308,7 @@ export default function FullCalculator() {
             <TextInput
               style={styles.input}
               placeholder="Ejemplo: 5.27"
+              keyboardType="numeric"
               value={HSP}
               onChangeText={setHSP}
             />
@@ -315,6 +319,7 @@ export default function FullCalculator() {
             <TextInput
               style={styles.input}
               placeholder="Ejemplo: 8.51 V"
+              keyboardType="numeric"
               value={corrienteNominalPanel}
               onChangeText={setCorrienteNominalPanel}
             />
@@ -325,6 +330,7 @@ export default function FullCalculator() {
             <TextInput
               style={styles.input}
               placeholder="Ejemplo: 9.51 V"
+              keyboardType="numeric"
               value={corrientCortoPanel}
               onChangeText={setCorrientCortoPanel}
             />
@@ -335,6 +341,7 @@ export default function FullCalculator() {
             <TextInput
               style={styles.input}
               placeholder="Ejemplo: 12 V"
+              keyboardType="numeric"
               value={voltajeNominalPanel}
               onChangeText={setVoltajeNominalPanel}
             />
@@ -345,6 +352,7 @@ export default function FullCalculator() {
             <TextInput
               style={styles.input}
               placeholder="Ejemplo: 0.35 "
+              keyboardType="numeric"
               value={capacidadDescarga}
               onChangeText={setCapacidadDescarga}
             />
@@ -355,6 +363,7 @@ export default function FullCalculator() {
             <TextInput
               style={styles.input}
               placeholder="Ejemplo: 100 Ah "
+              keyboardType="numeric"
               value={capacidadBateria}
               onChangeText={setCapacidadBateria}
             />
@@ -365,6 +374,7 @@ export default function FullCalculator() {
             <TextInput
               style={styles.input}
               placeholder="Ejemplo: 12 V "
+              keyboardType="numeric"
               value={voltajeBateria}
               onChangeText={setVoltajeBateria}
             />
@@ -375,6 +385,7 @@ export default function FullCalculator() {
             <TextInput
               style={styles.input}
               placeholder="Ejemplo: 2 dias "
+              keyboardType="numeric"
               value={numeroDiasAutonomia}
               onChangeText={setNumeroDiasAutonomia}
             />
