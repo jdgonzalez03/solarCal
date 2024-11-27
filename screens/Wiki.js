@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import BaseScreenComponent from "../components/BaseScreenComponent.js";
 import WikiContent from "../content/WikiContent.json";
+import { stylesWiki } from "../styles/stylesWiki.js";
 
 export default function Wiki() {
   const [selectedTema, setSelectedTema] = useState(null);
@@ -16,20 +17,9 @@ export default function Wiki() {
   const renderWikiItem = ({ item }) => (
     <TouchableOpacity
       onPress={() => setSelectedTema(item)}
-      style={{
-        padding: 15,
-        borderBottomWidth: 1,
-        borderBottomColor: "#e0e0e0",
-      }}
+      style={stylesWiki.itemContainer}
     >
-      <Text
-        style={{
-          fontSize: 16,
-          fontWeight: "bold",
-        }}
-      >
-        {item.titulo}
-      </Text>
+      <Text style={stylesWiki.title}>{item.titulo}</Text>
     </TouchableOpacity>
   );
 
@@ -40,79 +30,35 @@ export default function Wiki() {
       transparent={true}
       onRequestClose={() => setSelectedTema(null)}
     >
-      <View
-        style={{
-          flex: 1,
-          justifyContent: "center",
-          alignItems: "center",
-          backgroundColor: "rgba(0,0,0,0.5)",
-        }}
-      >
-        <View
-          style={{
-            width: "90%",
-            backgroundColor: "white",
-            borderRadius: 10,
-            padding: 20,
-          }}
-        >
+      <View style={stylesWiki.modalContainer}>
+        <View style={stylesWiki.modalContent}>
           <ScrollView>
-            {/* Titulo */}
-            <Text
-              style={{
-                fontSize: 20,
-                fontWeight: "bold",
-                marginBottom: 10,
-              }}
-            >
-              {selectedTema?.titulo}
-            </Text>
-            {/* Concepto */}
-            <Text style={{ marginBottom: 10 }}>{selectedTema?.concepto}</Text>
-            {/* Renderiza tipos si hay */}
+            <Text style={stylesWiki.title}>{selectedTema?.titulo}</Text>
+            <Text style={stylesWiki.description}>{selectedTema?.concepto}</Text>
+
             {selectedTema?.tipos && (
               <View>
-                <Text
-                  style={{
-                    fontWeight: "bold",
-                    marginTop: 10,
-                  }}
-                >
-                  Tipos:
-                </Text>
+                <Text style={stylesWiki.typesTitle}>Tipos:</Text>
                 {selectedTema.tipos.map((tipo, index) => (
-                  <Text key={index} style={{ marginLeft: 10 }}>
+                  <Text key={index} style={stylesWiki.listItem}>
                     • {tipo}
                   </Text>
                 ))}
               </View>
             )}
-            {/* Aplicaciones */}
-            <Text
-              style={{
-                fontWeight: "bold",
-                marginTop: 10,
-              }}
-            >
-              Aplicaciones:
-            </Text>
+
+            <Text style={stylesWiki.typesTitle}>Aplicaciones:</Text>
             {selectedTema?.aplicaciones.map((aplicacion, index) => (
-              <Text key={index} style={{ marginLeft: 10 }}>
+              <Text key={index} style={stylesWiki.listItem}>
                 • {aplicacion}
               </Text>
             ))}
-            {/* Cerrar modal */}
+
             <TouchableOpacity
               onPress={() => setSelectedTema(null)}
-              style={{
-                marginTop: 20,
-                padding: 10,
-                backgroundColor: "#f0f0f0",
-                borderRadius: 5,
-                alignItems: "center",
-              }}
+              style={stylesWiki.closeButton}
             >
-              <Text>Cerrar</Text>
+              <Text style={stylesWiki.closeButtonText}>Cerrar</Text>
             </TouchableOpacity>
           </ScrollView>
         </View>
@@ -122,13 +68,9 @@ export default function Wiki() {
 
   return (
     <BaseScreenComponent>
-      <View style={{ padding: 10 }}>
-        <Text
-          style={{
-            fontSize: 16,
-            marginBottom: 10,
-          }}
-        >
+      <View style={stylesWiki.container}>
+        <Text style={stylesWiki.header}>Conceptos Básicos</Text>
+        <Text style={stylesWiki.description}>
           En esta sección encontrarás algunos conceptos básicos que pueden ser
           útiles.
         </Text>
