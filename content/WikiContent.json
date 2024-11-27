@@ -1,5 +1,25 @@
 {
   "temas": [
+    {
+        "titulo": "Potencia Eléctrica",
+        "concepto": "La potencia eléctrica es la cantidad de energía eléctrica transferida o consumida por unidad de tiempo en un circuito. Se calcula como el producto del voltaje y la corriente.",
+        "aplicaciones": [
+            "Diseño de sistemas eléctricos y electrónicos",
+            "Dimensionamiento de equipos como motores y generadores",
+            "Cálculo de consumo energético en dispositivos eléctricos",
+            "Optimización de la eficiencia en instalaciones eléctricas"
+        ]
+      },
+      {
+        "titulo": "Energía Eléctrica",
+        "concepto": "La energía eléctrica es la capacidad de un sistema eléctrico para realizar trabajo. Se mide como el producto de la potencia suministrada y el tiempo durante el cual se suministra.",
+        "aplicaciones": [
+          "Cálculo del consumo eléctrico en hogares e industrias",
+          "Dimensionamiento de sistemas de almacenamiento energético (baterías)",
+          "Diseño y planificación de redes eléctricas",
+          "Análisis de eficiencia energética en dispositivos y sistemas"
+        ]
+      },
       {
           "titulo": "Semiconductores fotovoltaicos",
           "concepto": "Materiales que permiten la conversión de energía solar en eléctrica mediante el movimiento de electrones al recibir radiación.",
