@@ -1,15 +1,13 @@
 import { StyleSheet } from "react-native";
 
 export const stylesCalculator = StyleSheet.create({
-  // Contenedor principal
   container: {
     flex: 1,
     paddingHorizontal: 20,
     paddingVertical: 10,
-    backgroundColor: "#f8f9fa", // Fondo claro
+    backgroundColor: "#f8f9fa",
   },
 
-  // Contenedor del encabezado
   headerContainer: {
     marginBottom: 15,
     alignItems: "center",
@@ -18,44 +16,40 @@ export const stylesCalculator = StyleSheet.create({
   headerText: {
     fontSize: 26,
     fontWeight: "bold",
-    color: "#4A90E2", // Azul para destacar el encabezado
+    color: "#4A90E2",
     textAlign: "center",
   },
 
   subHeaderText: {
     fontSize: 16,
-    color: "#666", // Gris suave
+    color: "#666",
     textAlign: "center",
     marginTop: 5,
   },
 
-  // Contenedor para el DropdownPicker
   dropdownContainer: {
     marginVertical: 20,
-    zIndex: 1000, // Para evitar problemas de superposición
+    zIndex: 1000,
   },
 
-  // Contenedor de los resultados o componentes renderizados
   resultContainer: {
     flex: 1,
     marginTop: 15,
     padding: 10,
-    backgroundColor: "#fff", // Fondo blanco para contraste
+    backgroundColor: "#fff",
     borderRadius: 8,
-    shadowColor: "#000", // Sombras para un efecto de elevación
+    shadowColor: "#000",
     shadowOpacity: 0.1,
     shadowRadius: 4,
-    elevation: 3, // Sombra en Android
+    elevation: 3,
   },
 
-  // Estilo para el texto dentro de la sección de resultados
   resultText: {
     fontSize: 18,
     color: "#333",
     textAlign: "center",
   },
 
-  // Estilo del ScrollView
   scrollView: {
     flexGrow: 1,
     marginTop: 10,

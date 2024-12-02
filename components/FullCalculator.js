@@ -42,6 +42,7 @@ export default function FullCalculator() {
     potencia: "",
     cantidad: "",
     horas_uso: "",
+    dias_uso: "",
   });
 
   const handleInputChange = (key, value) => {
@@ -247,6 +248,16 @@ export default function FullCalculator() {
             />
           </View>
           <View style={styles.inputGroup}>
+            <Text>Ingrese la cantidad de días a las semana que se usa: </Text>
+            <TextInput
+              style={styles.input}
+              placeholder="# Dias de uso"
+              keyboardType="numeric"
+              value={form.dias_uso}
+              onChangeText={(value) => handleInputChange("dias_uso", value)}
+            />
+          </View>
+          <View style={styles.inputGroup}>
             <Text>Ingrese las horas de uso diario: </Text>
             <TextInput
               style={styles.input}
@@ -398,6 +409,7 @@ export default function FullCalculator() {
               <Text>Potencia: {equipo.potencia} W</Text>
               <Text>Cantidad: {equipo.cantidad}</Text>
               <Text>Horas de uso: {equipo.horas_uso}</Text>
+              <Text>Días de uso: {equipo.dias_uso}</Text>
               <Text>Potencia Total: {equipo.potencia_total} W</Text>
               <Text>Energía: {equipo.energia} Wh</Text>
             </View>
